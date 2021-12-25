@@ -1,0 +1,271 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#loading{
+    width: 100%;
+    height: 100vh;
+    background: white url("loading.gif")no-repeat center;
+    z-index: 9999;
+}
+body{
+    background-color: darkgoldenrod;
+}
+.navbar{
+  display: flex;
+  background-color:rgb(255, 94, 0);
+  position: sticky;
+  top: 0%;
+  left:0%;
+}
+.background{
+    background-image: url("background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.logo img{
+    width: 100px;
+    padding-top: 10px;
+    margin-left: 0px;
+}
+.list{
+    display: flex;
+    width: 70%;
+}
+.list li{
+    list-style: none;
+    width: 100%;
+    padding: 30px;
+    padding-top: 20px;
+}
+.list li a{
+    text-decoration: none;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: white;
+}
+.list li a:hover{
+    background-color: cornflowerblue;
+    color: white;
+}
+.searchbox{
+    border: 2px solid blue;
+    width: 22%;
+    padding: 20px;
+    background-color: royalblue;
+    position: absolute;
+    right: 30%;
+    top: 10%;
+}
+.searchbox input{
+    width: 70%;
+    height: 30%;
+    font-size: 20px;
+    border: 2px solid red;
+    border-radius: 9px;
+    text-transform: capitalize;
+}
+.searchbox button{
+    background-color: transparent;
+    width: 25%;
+    font-size: 20px;
+    border: 2px solid red;
+    border-radius: 9px;
+    text-transform: capitalize;
+}
+#ckb{
+    display: none;
+}
+.lbl{
+    display: none;
+}
+.lbl1{
+    position: absolute;
+    right: 22%;
+    top: 3%;
+}
+.lbl2{
+    position: absolute;
+    right: 15%;
+    top: 3%;
+}
+#drk{
+    border: 5px solid red;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    color: white;
+}
+#mod:checked~#drk{
+    background-color: white;
+    color: black;
+}
+#mod{
+    display: none;
+}
+#src{
+    display: none;
+}
+#src:checked~#searchbox{
+    display: none;
+}
+#src:checked~.lbl2{
+    opacity: 1;
+}
+#src:checked~.lbl3{
+    display: none;
+}
+.log{
+    background-color: transparent;
+    position: absolute;
+    top: 6%;
+    right: 2%; 
+    padding: 10px;
+    border-radius: 30px;
+    width: 150px;
+    background-color: cornflowerblue;
+}
+.log a{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+}
+.text{
+    width: 90%;
+    margin: 20px AUTO;
+    padding: 10px;
+}
+.sec{
+    display: flex;
+    flex-direction: column;
+}
+.text .heading{
+    text-transform: capitalize;
+    font-size: 40px;
+    color: yellow;
+    text-align: center;
+}
+.text .parra{
+    font-size: 30px;
+    color: white;
+}
+.hea{
+    position: absolute;
+    top: 35px;
+    left: 100px;
+    display: none;
+}
+.txt1{
+    font-size: 20px;
+    color: white;
+    text-transform: capitalize;
+}
+.txt2{
+    font-size: 15px;
+    color: white;
+    text-transform: capitalize;
+}
+.secres{
+    border: 2px solid blue ;
+    display: none;
+}
+.textR .headingR{
+    text-transform: capitalize;
+    font-size: 40px;
+    text-align: center;
+}
+.textR .parraR{
+    font-size: 30px;
+    text-align: center;
+}
+.read{
+  text-align: center;
+  padding-top: 10px;
+}
+.read button{
+    font-size: 30px;
+    padding: 10px;
+    text-transform: capitalize;
+    background-color: transparent;
+}
+.read button:hover{
+    background-color: tomato;
+    width: 250px;
+    font-size: 40px;
+}
+.read button .btnres{
+    color: white;
+    text-decoration: none;
+}
+.read button .btn{
+    text-decoration: none;
+    color:royalblue;
+}
+.head1{
+    text-transform: capitalize;
+    font-size: 40px;
+    text-align: center;
+}
+.parra1{
+    font-size: 30px;
+    text-align: center;
+}
+.sec2{
+    margin: 50px;
+    border: 2px solid red;
+   display: flex;
+   flex-direction:column;
+}
+.img2{
+    width: 40%;
+    margin: 30px;
+    padding: 20px;
+    padding-top: 5%;
+}
+.img2 img{
+    width: 100%;
+    height: 90%;
+} 
+.sec3{
+    margin: 50px;
+    display: flex;
+    border: 2px solid red;
+    flex-direction: column;
+}
+.sec4{
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid red;
+}
+.imgbox{
+    padding: 20px;
+    border: 2px solid red;
+    width: 40%;
+    height: 500px;
+    display:flex;
+    flex-direction: column;
+    margin: 20px;
+    margin-left: 30%;
+}
+.image{
+    width: 100%;
+    height: 80%;
+    border: 2px solid blue;
+}
+.image img{
+    width: 100%;
+    height: 100%;
+}
+.icon{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    border: 2px solid blue;
+    margin-top: 20px;
+}
+.icon img{
+    width: 50px;
+    margin: 20px;
+}
+
